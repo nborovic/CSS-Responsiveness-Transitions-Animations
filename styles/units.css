@@ -1,0 +1,90 @@
+html {
+  font-size: 16px;
+}
+
+.main {
+  padding: 0 50px;
+  font-size: 16px;
+}
+
+.main__container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.main__unit-container {
+  width: 40px;
+}
+
+.main__measurement-container {
+  width: 500px;
+  background: grey;
+  margin-left: 20px;
+  font-size: 2px;
+}
+
+.main__measurement {
+  height: 50px;
+  background: lightblue;
+}
+
+.main__measurement--px {
+  width: 5px;
+}
+
+.main__measurement--cm {
+  width: 5cm;
+}
+
+.main__measurement--mm {
+  width: 5mm;
+}
+
+.main__measurement--in {
+  width: 5in;
+}
+
+.main__measurement--pt {
+  width: 5pt;
+}
+
+.main__measurement--pc {
+  width: 5pc;
+}
+
+.main__measurement--percentage {
+  width: 5%;
+}
+
+.main__measurement--vw {
+  width: 5vw;
+}
+
+.main__measurement--vh {
+  width: 5vh;
+}
+
+.main__measurement--vmin {
+  width: 5vmin;
+}
+
+.main__measurement--vmax {
+  width: 5vmax;
+}
+
+.main__measurement--ex {
+  width: 5ex;
+}
+
+.main__measurement--ch {
+  width: 5ch;
+}
+
+.main__measurement--rem {
+  width: 5rem;
+}
+
+.main__measurement--em {
+  width: 5em;
+}

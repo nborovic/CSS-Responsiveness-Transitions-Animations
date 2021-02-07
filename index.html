@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS Responsiveness, Transitions and Animations</title>
+	<link rel="stylesheet" href="../styles/common.css">
+	<link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+	<header class="header">
+		<div class="header__container">
+			<img src="./assets/icons/logo.svg" alt="Logo" class="header__logo">
+			<img src="./assets/icons/menu.svg" alt="Menu" class="header__menu">
+			<nav class="header__nav">
+				<a href="#landing" class="header__link">
+					Ponuda
+				</a>
+				<a href="#comments" class="header__link">
+					Komentari
+				</a>
+				<a href="#loading" class="header__link">
+					Loading
+				</a>
+				<a href="./pages/units.html" class="header__link">
+					Mjere
+				</a>
+			</nav>
+		</div>
+	</header>
+	<main class="main">
+		<section class="main__landing" id="landing">
+			<h1 class="landing__title">Ponuda</h1>
+			<figure class="landing__grill">
+				<img src="./assets/images/grill-1.png" alt="Grill" class="landing__grill-image">
+				<figcaption class="landing__text">
+					<h2 class="landing__name">Roštilj A</h2>
+					<p class="landing__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quidem omnis necessitatibus, sunt tempora dicta laborum, ducimus error eius enim deleniti assumenda tenetur. Ad, est. Quae harum dolores vero itaque!</p>
+					<button class="landing__button">Kupi</button>
+				</figcaption>
+			</figure>
+			<figure class="landing__grill">
+				<img src="./assets/images/grill-2.png" alt="Grill" class="landing__grill-image">
+				<figcaption class="landing__text">
+					<h2 class="landing__name">Roštilj B</h2>
+					<p class="landing__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id natus amet dicta consequatur, illo doloremque ex veritatis ad modi, obcaecati corrupti illum praesentium, aspernatur dolores hic! Quaerat soluta fugit expedita?</p>
+					<button class="landing__button">Kupi</button>
+				</figcaption>
+			</figure>
+			<figure class="landing__grill">
+				<img src="./assets/images/grill-1.png" alt="Grill" class="landing__grill-image">
+				<figcaption class="landing__text">
+					<h2 class="landing__name">Roštilj C</h2>
+					<p class="landing__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quidem omnis necessitatibus, sunt tempora dicta laborum, ducimus error eius enim deleniti assumenda tenetur. Ad, est. Quae harum dolores vero itaque!</p>
+					<button class="landing__button">Kupi</button>
+				</figcaption>
+			</figure>
+			<figure class="landing__grill">
+				<img src="./assets/images/grill-2.png" alt="Grill" class="landing__grill-image">
+				<figcaption class="landing__text">
+					<h2 class="landing__name">Roštilj D</h2>
+					<p class="landing__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id natus amet dicta consequatur, illo doloremque ex veritatis ad modi, obcaecati corrupti illum praesentium, aspernatur dolores hic! Quaerat soluta fugit expedita?</p>
+					<button class="landing__button">Kupi</button>
+				</figcaption>
+			</figure>
+		</section>
+		<section class="main__slider" id="comments">
+			<div class="slider__slide slider__slide--1">
+				<div class="slider__content">
+					<div class="slider__user">
+						<img src="assets/images/matija.jpg" alt="Matija" class="slider__image">
+						<span class="slider__fullname">Matija Luketin</span>
+					</div>
+					<div class="slider__rating">5/5</div>
+					<div class="slider__comment">
+						Dobri su roštilji. Svaka čast!
+					</div>
+				</div>
+			</div>	
+			<div class="slider__slide slider__slide--2">
+				<div class="slider__content">
+					<div class="slider__user">
+						<img src="assets/images/alex.jpg" alt="Alex" class="slider__image">
+						<span class="slider__fullname">Alex Amanzi</span>
+					</div>
+					<div class="slider__comment">
+						PESSIMI BARBECUE E SERVIZIO. NON FARE MAI ACQUISTI QUI!
+					</div>
+					<div class="slider__rating">1/5</div>
+				</div>			
+			</div>	
+			<div class="slider__slide slider__slide--3">
+				<div class="slider__content">
+					<div class="slider__user">
+						<img src="assets/images/ante.jpg" alt="Ante" class="slider__image">
+						<span class="slider__fullname">Ante Vuletić</span>
+					</div>
+					<div class="slider__comment">
+						Dobri su roštilji. Svaka čast!
+					</div>
+					<div class="slider__rating">4/5</div>
+				</div>			
+			</div>	
+			<div class="slider__slide slider__slide--4">
+				<div class="slider__content">
+					<div class="slider__user">
+						<img src="assets/images/kreso.jpg" alt="Kreso" class="slider__image">
+						<span class="slider__fullname">Krešimir Čondić</span>
+					</div>
+					<div class="slider__comment">
+						Dobri su roštilji. Svaka čast!
+					</div>
+					<div class="slider__rating">4/5</div>
+				</div>			
+			</div>
+			<div class="slider__slide slider__slide--5">
+				<div class="slider__content">
+					<div class="slider__user">
+						<img src="assets/images/sergije.jpg" alt="Sergije" class="slider__image">
+						<span class="slider__fullname">Sergije Antičević</span>
+					</div>
+					<div class="slider__comment">
+						Dobri su roštilji. Svaka čast!
+					</div>
+					<div class="slider__rating">4/5</div>
+				</div>			
+			</div>
+		</section>
+		<section class="main__loading" id="loading">
+			<div class="loading__loader"></div>
+		</section>
+	</main>
+</body>
+</html>
